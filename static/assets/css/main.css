@@ -126,7 +126,7 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #414f57;
+		color: #ff0000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
@@ -182,6 +182,7 @@
 
 	p {
 		margin: 0 0 1.5em 0;
+		font-weight: 900;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -705,7 +706,7 @@
 		max-width: 100%;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
-		background: #ffffff;
+		background: #A9BA9D;
 		border-radius: 4px;
 		cursor: default;
 		opacity: 0.95;
@@ -734,7 +735,8 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				box-shadow: 0 0 0 1.5em #ff0000;
+				color: #f69697;
 			}
 
 			#main .avatar:before {
